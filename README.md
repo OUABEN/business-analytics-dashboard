@@ -102,12 +102,6 @@ JWT_SECRET=your_secret
 
 ---
 
-## 🌐 Live Demo
-
-(Add deployment link using Vercel or Netlify)
-
----
-
 ## 👨‍💻 Author
 
-Your Name
+Mohamed OUABEN
