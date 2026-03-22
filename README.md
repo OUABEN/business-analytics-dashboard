@@ -86,7 +86,19 @@ JWT_SECRET=your_secret
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+📸 Screenshots
+
+**Analytics Page**  
+![Analytics](screenshots/analytics.jpeg)
+
+**Dashboard Page**  
+![Dashboard](screenshots/dashboard.jpeg)
+
+**Login Page**  
+![Login](screenshots/login.jpeg)
+
+**Profile Page**  
+![Profile](screenshots/profile.jpeg)
 
 ---
 
