@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Analytics</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1337ec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0a0c16",
+                        "surface": "#161b33",
+                        "accent": "#00f2ff",
+                        "navy-700": "#232948",
+                        "navy-800": "#1a1e35",
+                        "accent-cyan": "#00f2ff",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .data-grid-bg {
+            background-image: radial-gradient(circle at 2px 2px, rgba(19, 55, 236, 0.05) 1px, transparent 0);
+            background-size: 32px 32px;
+        }
+        .geometric-grid {
+            background-image: linear-gradient(to right, rgba(19, 55, 236, 0.05) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(19, 55, 236, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        .glow-dot {
+            box-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+        }
+        .neon-glow {
+            box-shadow: 0 0 15px rgba(19, 55, 236, 0.3);
+        }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
